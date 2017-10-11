@@ -13,4 +13,4 @@ def get_roots(a, b, c):
         else:
             return root1, root2
 
-print(get_roots(1, 2, -3))
+
