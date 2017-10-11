@@ -8,9 +8,7 @@ def get_roots(a, b, c):
     else:
         root1 = (-b - sqrt(discriminant)) / (2 * a)
         root2 = (-b + sqrt(discriminant)) / (2 * a)
-        if root1 == root2:
-            return root1, None
-        else:
-            return root1, root2
-
-
+    if root1 == root2:
+        return root1, None
+    else:
+        return root1, root2
